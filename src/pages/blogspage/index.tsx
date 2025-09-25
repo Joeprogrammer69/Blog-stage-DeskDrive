@@ -22,21 +22,23 @@ const formatDate = (dateString: string) => {
 
 const BlogPage = () => {
   const [selectedCategory, setSelectedCategory] = useState<string>("");
-  const [expandedKey, setExpandedKey] = useState<string | null>(null); // unique string key
+  const [expandedKey, setExpandedKey] = useState<string | null>(null); 
 
   const handleCategoryChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
     setSelectedCategory(e.target.value);
-    setExpandedKey(null); // sluit open post bij filter verandering
+    setExpandedKey(null); 
   };
 
   const toggleExpand = (key: string) => {
     setExpandedKey((prev) => (prev === key ? null : key));
   };
 
-  const filteredPosts =
-    selectedCategory === ""
-      ? posts
-      : posts.filter((post) => post.category === selectedCategory);
+ const filteredPosts =
+  (selectedCategory === ""
+    ? posts
+    : posts.filter((post) => post.category === selectedCategory)
+  ).sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+
 
   return (
     <Container className="pt-5" style={{ backgroundColor: "#f4f6f9", minHeight: "100vh" }}>
