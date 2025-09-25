@@ -8,20 +8,25 @@ const NavBarBlog = () => {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
+        
         <Navbar.Brand>Blog: Steven Van Cleemput</Navbar.Brand>
+
+        
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
-            <Link href="/landingpage" passHref legacyBehavior>
-              <Nav.Link>LandingsPagina</Nav.Link>
+
+      
+        <Navbar.Collapse id="basic-navbar-nav" className="justify-content-center">
+          <Nav>
+            <Link href="/" passHref legacyBehavior>
+              <Nav.Link className="mx-3">LandingsPagina</Nav.Link>
             </Link>
 
             <Link href="/aboutme" passHref legacyBehavior>
-              <Nav.Link>Over mezelf</Nav.Link>
+              <Nav.Link className="mx-3">Over mezelf</Nav.Link>
             </Link>
 
             <Link href="/blogspage" passHref legacyBehavior>
-              <Nav.Link>Blogs</Nav.Link>
+              <Nav.Link className="mx-3">Blogs</Nav.Link>
             </Link>
           </Nav>
         </Navbar.Collapse>
