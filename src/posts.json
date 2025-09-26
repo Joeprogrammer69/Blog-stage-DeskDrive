@@ -1,17 +1,30 @@
 [
   {
-    "id": 1,
+    "id": 0,
     "title": "Eerste week",
     "text": "De eerste week was wennen, in het begin was ik een beetje nerveus door de verwachtingen maar dat ging na een tijdje weg. We hebben in het begin een klant gehad, en het was leuk om in teamverband eruit te komen. We moesten haar business facebook account linken zodat we een email template kunnen aanmaken waar we haar socials mee kunnen sturen. De dagen erna moesten we veel in de deskdrive omgeving taakjes uitvoeren en leren hoe dat de selenium testen in elkaar zaten. Omdat ik en een collega stagair goed vooruitgingen kregen we een hele cursus dat mensen die beginnen moeten uitvoeren en dat was wel uitdagend.",
     "category": "lessons learned",
-    "date": "2025-09-19"
+    "date": "2025-09-19",
+    "img": ""
+    
+    
   },
   {
     "id": 1,
     "title": "tweede week",
-    "text": " In de tweede week zijn we gestart met modules te maken zoals json fields en queries uit te voeren op de database. Dit ging moeilijk omdat dit ingebouwd was in de erp omgeving en we konden dus moeilijk aan tabellen en data geraken.",
-    "date": "2025-09-25"
+    "text": " In de tweede week zijn we gestart met modules te maken zoals json fields en queries uit te voeren op de database. Dit ging moeilijk omdat dit ingebouwd was in de erp omgeving en we konden dus moeilijk aan tabellen en data geraken. Later hebben we deze oefeningen wel kunnen doen op onze mentor haar computer. Verder heb ik nog andere modules gemaakt en zelfs 1 hermaakt omdat die er nog niet goed inzat. In de afbeelding zie je een stuk code die heel simpel lijkt maar door dat we niets van de datatypes/gegevens wisten was dit zelfs moeilijk, gelukkig met dit op onze mentor haar computer te doen ging dit beter. ",
+    "category": "wins",
+    "date": "2025-09-25",
+    "img":"/sqlcode.jpg"
+  },
+  {
+    "id": 2,
+    "title": "derde week",
+    "text": " In de derde week zijn we gestart met modules te maken zoals json fields en queries uit te voeren op de database. Dit ging moeilijk omdat dit ingebouwd was in de erp omgeving en we konden dus moeilijk aan tabellen en data geraken.",
+    "date": "2025-09-25",
+    "img": ""
   }
+  
   
   
 ]

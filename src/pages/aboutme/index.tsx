@@ -51,6 +51,7 @@ const AboutMePage = () => {
                     <strong>Hobby's:</strong> Gamen, music nerd en noob producer, 
                     ongedisciplineerde gym bezoeker
                   </p>
+                  <p><strong>Voorbije werkervaring</strong>Vrijwilligerswerk bij JNM peer keer gedaan en in de zomer van 2025 shiften ingevuld bij de Acion</p>
                   <p>
                     <a
                       href="https://www.linkedin.com/in/steven-van-cleemput-50a9a32a0/"

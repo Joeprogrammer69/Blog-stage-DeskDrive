@@ -42,7 +42,10 @@ const BlogDetail = () => {
               <Card.Text>{post.text}</Card.Text>
             </Card.Body>
           </Card>
+          <button  onClick={() => router.push(`/blogspage/${post.id - 1}`)}>Vorige blog</button>
+          <button  onClick={() => router.push(`/blogspage/${post.id + 1}`)}>Volgende blog</button>
         </Col>
+        
       </Row>
     </Container>
   );

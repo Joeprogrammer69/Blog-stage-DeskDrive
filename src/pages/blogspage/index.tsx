@@ -22,26 +22,28 @@ const formatDate = (dateString: string) => {
 
 const BlogPage = () => {
   const [selectedCategory, setSelectedCategory] = useState<string>("");
-  const [expandedKey, setExpandedKey] = useState<string | null>(null); 
+  const [expandedKey, setExpandedKey] = useState<string | null>(null);
 
   const handleCategoryChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
     setSelectedCategory(e.target.value);
-    setExpandedKey(null); 
+    setExpandedKey(null);
   };
 
   const toggleExpand = (key: string) => {
     setExpandedKey((prev) => (prev === key ? null : key));
   };
 
- const filteredPosts =
-  (selectedCategory === ""
-    ? posts
-    : posts.filter((post) => post.category === selectedCategory)
-  ).sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
-
+  const filteredPosts =
+    (selectedCategory === ""
+      ? posts
+      : posts.filter((post) => post.category === selectedCategory)
+    ).sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime());
 
   return (
-    <Container className="pt-5" style={{ backgroundColor: "#f4f6f9", minHeight: "100vh" }}>
+    <Container
+      className="pt-5"
+      style={{ backgroundColor: "#f4f6f9", minHeight: "100vh" }}
+    >
       <Row className="mb-4">
         <Col>
           <h2 className="fw-bold text-primary text-center">Blogs</h2>
@@ -65,7 +67,6 @@ const BlogPage = () => {
           {filteredPosts.length === 0 && <p>Geen posts gevonden...</p>}
 
           {filteredPosts.map((post, index) => {
-            
             const itemKey = `${String(post.id)}-${index}`;
 
             return (
@@ -91,6 +92,16 @@ const BlogPage = () => {
                         <Card.Subtitle className="mb-2 text-muted">
                           {formatDate(post.date)} – {post.category}
                         </Card.Subtitle>
+
+                        
+                        {post.img && (
+                          <Card.Img
+                            src={post.img}
+                            alt={post.title}
+                            className="mb-3"
+                          />
+                        )}
+
                         <Card.Text>{post.text}</Card.Text>
                       </motion.div>
                     )}

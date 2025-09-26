@@ -6,19 +6,32 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 const NavBarBlog = () => {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar expand="lg" bg="primary" variant="dark" className="shadow-sm py-3">
       <Container>
-        <Navbar.Brand>Blog: Steven Van Cleemput</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+         <Navbar.Toggle aria-controls="basic-navbar-nav" />
+
+       
         <Navbar.Collapse id="basic-navbar-nav" className="justify-content-center">
           <Nav>
-            <Nav.Link as={Link} href="/" className="mx-3">
-              LandingsPagina
+            <Nav.Link
+              as={Link}
+              href="/"
+              className="mx-3 text-light fw-semibold"
+            >
+              Home
             </Nav.Link>
-            <Nav.Link as={Link} href="/aboutme" className="mx-3">
+            <Nav.Link
+              as={Link}
+              href="/aboutme"
+              className="mx-3 text-light fw-semibold"
+            >
               Over mezelf
             </Nav.Link>
-            <Nav.Link as={Link} href="/blogspage" className="mx-3">
+            <Nav.Link
+              as={Link}
+              href="/blogspage"
+              className="mx-3 text-light fw-semibold"
+            >
               Blogs
             </Nav.Link>
           </Nav>
