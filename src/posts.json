@@ -21,7 +21,7 @@
     "id": 2,
     "title": "derde week",
     "text": "Deze week stond voor oefenen met selenium tests. Zo heb ik proberen te doen dat de selenium een test moet simuleren dat naar de offerte pagina gaat en vervolgens naar de producten tab. Daarna moest het een product toevoegen en via die popup al de items in die popup testen. Hier zit ik wel nog vast vanwege ontbrekende Id's die ik nodig heb. Ook heb ik wel wat bigeleerd door een collega een selenium tutorial te geven maar daar eigenlijk bij te leren. Verder heb ik nog taakjes gekregen zoals images verwijderen die niet gerendeert waren in deskdrive en heb ik metings meegemaakt wat wel een coole nieuwe ervaring is. Ook ben ik begonnen met pdf templates te makjen in freemarker maar daar moet ik volgende week nog verder aan werken. ",
-    "category": "challenges",
+    "category": "reflectie",
     "date": "2025-10-3",
     "img": ""
   }
