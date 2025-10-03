@@ -39,12 +39,11 @@ const LandingPage = () => {
           <Col md={{ span: 8, offset: 2 }}>
             <Card className="shadow-sm border-0">
               <Card.Body>
-                <Card.Title className="fw-semibold text-secondary">Over Deskdrive</Card.Title>
+                <Card.Title className="fw-semibold text-secondary">Over mijn stage</Card.Title>
                 <Card.Text>
-                  Deskdrive is een bedrijf met expertise in CRM en ERP, zo hebben ze
-                  een platform waarmee ze alle noden op één plaats bijhouden zoals
-                  klantenbeheer en facturaties. Het is gelegen in Zandhoven en heeft een
-                  gezellig team van net onder 10 man.
+                  Mijn stage is bij Deskdrive, het is eigenlijk werkplekleren dus ik moet hier vooral leren en werken zoals de werknemers die er werken, allesinds dat is het doel ervan
+                  . Dit doe ik bij Deskdrive en het loopt van september tot januari. Deze website moet vooral tonen hoe ik ben uitgebloiet van een student naar een werknemer, wat ik allemaal heb geleerd,
+                  wat beter kan en wat ik allemaal heb gedaan.
                 </Card.Text>
               </Card.Body>
             </Card>
