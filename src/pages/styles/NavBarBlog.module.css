@@ -1,0 +1,13 @@
+.zoom-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+.navLinkCustom {
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.navLinkCustom:hover {
+  color: #ffc107 !important; 
+  transform: scale(1.05); 
+}

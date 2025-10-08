@@ -111,7 +111,18 @@ const BlogPage = () => {
             );
           })}
         </Col>
+        
       </Row>
+       <Row className="mt-4">
+  <Col xs={12} md={{ span: 9, offset: 3 }}>
+    <img
+      src="/boek.jpg"
+      alt="Boek"
+      className="img-fluid w-100 rounded shadow-sm"
+      style={{ objectFit: "cover" }}
+    />
+  </Col>
+</Row>
     </Container>
   );
 };

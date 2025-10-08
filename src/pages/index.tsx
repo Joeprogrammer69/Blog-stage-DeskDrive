@@ -20,7 +20,7 @@ const LandingPage = () => {
     .slice(0, 1);
 
   return (
-    <div style={{ backgroundColor: "#f4f6f9", minHeight: "100vh" }}>
+    <div style={{  minHeight: "100vh" }}>
       
 
       <Container className="pt-5">
@@ -42,8 +42,8 @@ const LandingPage = () => {
                 <Card.Title className="fw-semibold text-secondary">Over mijn stage</Card.Title>
                 <Card.Text>
                   Mijn stage is bij Deskdrive, het is eigenlijk werkplekleren dus ik moet hier vooral leren en werken zoals de werknemers die er werken, allesinds dat is het doel ervan
-                  . Dit doe ik bij Deskdrive en het loopt van september tot januari. Deze website moet vooral tonen hoe ik ben uitgebloiet van een student naar een werknemer, wat ik allemaal heb geleerd,
-                  wat beter kan en wat ik allemaal heb gedaan.
+                  . Dit doe ik bij Deskdrive en het loopt van september tot januari. Deze website moet vooral tonen hoe ik ben uitgebloeit van een student naar een werknemer, wat ik allemaal heb geleerd,
+                  wat beter kan en wat ik allemaal heb gedaan. Dingen zoals Selenium testen schrijven en klanten helpen is onder andere een van mijn rollen bij Deskdrive.
                 </Card.Text>
               </Card.Body>
             </Card>

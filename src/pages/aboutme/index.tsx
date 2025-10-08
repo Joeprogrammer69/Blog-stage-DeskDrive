@@ -13,7 +13,7 @@ const AboutMePage = () => {
   
  const [open, setOpen] = useState(false);
   return (
-    <div style={{ backgroundColor: "#f4f6f9", minHeight: "100vh" }}>
+    <div style={{  minHeight: "100vh" }}>
       
 
        <Container className="pt-5">
@@ -24,6 +24,7 @@ const AboutMePage = () => {
             src="/steven.jpg"
            style={{
                  width: "200px",
+                 maxWidth: "80%",
                  borderRadius: "50%",
                  transition: "transform 0.3s ease",
                  cursor: "pointer"
@@ -76,9 +77,9 @@ const AboutMePage = () => {
   <Col md={{ span: 8, offset: 2 }}>
     <Card className="shadow-sm border-0 text-center">
       <Card.Body>
-        <Card.Title className="fw-semibold text-secondary">Over Deskdrive</Card.Title>
+        <Card.Title className="fw-semibold text-secondary">Over <a href="https://deskdrive.com/">Deskdrive</a></Card.Title>
         <Card.Text>
-          Deskdrive is een bedrijf met expertise in CRM en ERP, zo hebben ze
+           Deskdrive is een bedrijf met expertise in CRM en ERP, zo hebben ze
           een platform waarmee ze alle noden op één plaats bijhouden zoals
           klantenbeheer en facturaties. Het is gelegen in Zandhoven en heeft een
           gezellig team van net onder 10 man.
