@@ -24,7 +24,16 @@
     "category": "reflectie",
     "date": "2025-10-3",
     "img": ""
+  },
+  {
+    "id": 2,
+    "title": "vierde week",
+    "text": "Ook deze week gingen we veel testen, zo kregen we veel uitleg hoe dat het doel was dat de testen een kortere runtime moesten krijgen. Eerst moesten we nog de testlogica zelf schijven en dit bewees niet makkelijk te zijn. Zo heb ik nog verder aan mijn addproducttooffer test gewerkt en die werkend gekregen. Op het einde van de week breidde ik mijn testen nog uit om ook op producttab te testen  waar ik meerdere fields zoals btw zou testen. We kregen in een laatste meting van de week wel nog git issues waardoor een methode niet meer werkte die verschillende testen niet meer deed werken. Daarmee gaan we volgende week maandag/dinsdag mee verder.  ",
+    "category": "reflectie",
+    "date": "2025-10-3",
+    "img": ""
   }
+  
   
   
   
