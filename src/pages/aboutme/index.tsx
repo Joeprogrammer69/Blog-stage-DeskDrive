@@ -22,6 +22,9 @@ const AboutMePage = () => {
         <h2 className="fw-bold text-primary">Over mezelf</h2>
           <img
             src="/steven.jpg"
+            onClick={() => setOpen(!open)}
+            onMouseEnter={(e) => (e.currentTarget.style.transform = "scale(1.1)")}
+            onMouseLeave={(e) => (e.currentTarget.style.transform = "scale(1)")}
            style={{
                  width: "200px",
                  maxWidth: "80%",
@@ -30,7 +33,6 @@ const AboutMePage = () => {
                  cursor: "pointer"
                  }}
             className="zoom-img"
-            onClick={() => setOpen(!open)}
           >
            
           </img>
@@ -73,27 +75,49 @@ const AboutMePage = () => {
       </Row>
    
 
-       <Row className="mb-5">
-  <Col md={{ span: 8, offset: 2 }}>
-    <Card className="shadow-sm border-0 text-center">
+     <Row className="mb-5 justify-content-center">
+  {/* Eerste kaart */}
+  <Col md={5} className="mb-4">
+    <Card className="shadow-sm border-0 text-center h-100">
       <Card.Body>
-        <Card.Title className="fw-semibold text-secondary">Over <a href="https://deskdrive.com/">Deskdrive</a></Card.Title>
+        <Card.Title className="fw-semibold text-secondary">
+          Over <a href="https://deskdrive.com/">Deskdrive</a>
+        </Card.Title>
         <Card.Text>
-           Deskdrive is een bedrijf met expertise in CRM en ERP, zo hebben ze
+          Deskdrive is een bedrijf met expertise in CRM en ERP, zo hebben ze
           een platform waarmee ze alle noden op één plaats bijhouden zoals
           klantenbeheer en facturaties. Het is gelegen in Zandhoven en heeft een
           gezellig team van net onder 10 man.
           <br /><br />
-          Hier ben ik een stagiar van september 2025 tot januari 2026. Mijn rol is de klantenwebpagina bij te vullen met de nodige info
-          en om bij te leren terwijl ik ook iets bijvoeg door met klanten te werken.
+          
         </Card.Text>
       </Card.Body>
       <div className="d-flex justify-content-center pb-3">
-         <img src="/Layer_1.jpg" style={{ maxWidth: "50%", height: "auto" }} />
+        <img src="/Layer_1.jpg" style={{ maxWidth: "50%", height: "auto" }} />
       </div>
     </Card>
   </Col>
-      </Row>
+
+  {/* Tweede kaart */}
+  <Col md={5} className="mb-4">
+    <Card className="shadow-sm border-0 text-center h-100">
+      <Card.Body>
+        <Card.Title className="fw-semibold text-secondary">
+          Mijn rol en bedoeling stage
+        </Card.Title>
+        <Card.Text className="text-start">
+          Hier ben ik een stagiar van september 2025 tot januari 2026. Hier ben ik vooral om bij te leren en in het team komen om mee te ervaren hoe het is om te werken in een IT bedrijf. Vaak kreeg ik bepaalde taken die varieerde in grootte en moeilijkheidsgraad. Ook kleine projecten hoorde erbij waar klanten in betrokken waren.
+          <ul>
+            <li>Selenium testen schrijven in Java</li>
+            <li>Templates maken, oa pdf's, emails</li>
+            <li>Drivers en handlers schrijven in Java</li>
+            <li>Klanten helpen met problemen</li>
+          </ul>
+        </Card.Text>
+      </Card.Body>
+    </Card>
+  </Col>
+</Row>
 
 
         
