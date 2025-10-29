@@ -38,7 +38,7 @@
     "title": "vijfde week",
     "text": " Deze week hard zitten werken aan testen en er ook af gekregen, met refactoren en dingen bij te voegen is het uiteindelijk gelukt het meeste af te krijgen. Zo heb ik setup data toegevoegt om de testen rapper te doen lopen. Ook heb ik in een meting gezien wat het volgende is dat we als opdracht krijgen. Namelijk de Deskdrive App testen op bugs  en fouten.  ",
     "category": "reflectie",
-    "date": "2025-17-10",
+    "date": "2025-10-17",
     "img": ""
   },
   {
@@ -46,7 +46,7 @@
     "title": "zesde week",
     "text": " Code nog eens gerefactord met als doel zo weinig mogelijk errors te krijgen tijdens het runnen bij de tests. Zo was vaak het probleem dat er iets niet aangeklikt kon worden in selenium omdat er iets anders in de weg zat. Dit is een algemeen probleem in Selenium. Dit heb ik samen met een andere stagair opgelost. Zo is het deels opgelost door alle producte in 1 keer toe te voegen en elke keer een hidepopup en waitajaxload toe te voegen. Verder nog de taak gekregen om email verschillende templates te maken en die waren ongeveer in 3 uur gelukt. Dit is iets dat ondertussen wel lukt.",
     "category": "lessons learned",
-    "date": "2025-24-10",
+    "date": "2025-10-24",
     "img": ""
   }
   
