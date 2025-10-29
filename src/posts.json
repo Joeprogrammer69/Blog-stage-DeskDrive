@@ -41,6 +41,14 @@
     "date": "2025-17-10",
     "img": ""
   }
+  {
+    "id": 5,
+    "title": "zesde week",
+    "text": " Code nog eens gerefactord met als doel zo weinig mogelijk errors te krijgen tijdens het runnen bij de tests. Zo was vaak het probleem dat er iets niet aangeklikt kon worden in selenium omdat er iets anders in de weg zat. Dit is een algemeen probleem in Selenium. Dit heb ik samen met een andere stagair opgelost. Zo is het deels opgelost door alle producte in 1 keer toe te voegen en elke keer een hidepopup en waitajaxload toe te voegen. Verder nog de taak gekregen om email verschillende templates te maken en die waren ongeveer in 3 uur gelukt. Dit is iets dat ondertussen wel lukt.",
+    "category": "lessons learned",
+    "date": "2025-24-10",
+    "img": ""
+  }
   
   
   
