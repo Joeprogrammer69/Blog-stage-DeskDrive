@@ -57,6 +57,15 @@
     "date": "2025-10-31",
     "img": ""
   }
+  {
+    "id": 7,
+    "title": "achtste week",
+    "text": "De testen moesten nu zerken op meerdere domeinen. Ook aan een simpele handler gewerkt die ervoor zorgt dat je offer niet meer kon aanpassen na een document aangemaakt te hebben. Verder ook enrichers toegevoegd die overal producten en companies toevoegen. De testen wworden dus sneller en efficïenter. Dit ging allemaal goed, maar het constante refactoren was wel eentonig. Toch besef ik dat dit moet en werk daar ook aan. Ook eens van thuis uit gewerkt en een onlin meeting gehouden, waar we uitlegden wat we gedqqn hebben en zwqt er te doen vqlt, zo hebben we een boel testen bijgekregen om te maken. ",
+    "category": "reflectie",
+    "date": "2025-11-6",
+    "img": ""
+  }
+  
   
   
   
