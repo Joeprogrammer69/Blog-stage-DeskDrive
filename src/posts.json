@@ -12,7 +12,7 @@
   {
     "id": 1,
     "title": "tweede week",
-    "text": " In de tweede week zijn we gestart met modules te maken zoals json fields en queries uit te voeren op de database. Dit ging moeilijk omdat dit ingebouwd was in de erp omgeving en we konden dus moeilijk aan tabellen en data geraken. Later hebben we deze oefeningen wel kunnen doen op onze mentor haar computer. Verder heb ik nog andere modules gemaakt en zelfs 1 hermaakt omdat die er nog niet goed inzat. In de afbeelding zie je een stuk code die heel simpel lijkt maar door dat we niets van de datatypes/gegevens wisten was dit zelfs moeilijk, gelukkig met dit op onze mentor haar computer te doen ging dit beter. ",
+    "text": " In de tweede week zijn we gestart met modules te maken zoals json fields en queries uit te voeren op de database. Dit ging moeilijk omdat dit ingebouwd was in de erp omgeving en we konden dus moeilijk aan tabellen en data geraken. Later hebben we deze oefeningen wel kunnen doen op onze mentor haar computer. Verder heb ik nog andere modules gemaakt en zelfs 1 hermaakt omdat die er nog niet goed inzat. In de afbeelding zie je een stuk code die heel simpel lijkt maar door dat we niets van de datatypes/gegevens wisten was dit zelfs moeilijk, gelukkig met dit op onze mentor haar computer te doen ging dit beter.  ",
     "category": "wins",
     "date": "2025-09-25",
     "img":"/sqlcode.jpg"
@@ -60,7 +60,7 @@
   {
     "id": 7,
     "title": "achtste week",
-    "text": "De testen moesten nu zerken op meerdere domeinen. Ook aan een simpele handler gewerkt die ervoor zorgt dat je offer niet meer kon aanpassen na een document aangemaakt te hebben. Verder ook enrichers toegevoegd die overal producten en companies toevoegen. De testen wworden dus sneller en efficïenter. Dit ging allemaal goed, maar het constante refactoren was wel eentonig. Toch besef ik dat dit moet en werk daar ook aan. Ook eens van thuis uit gewerkt en een onlin meeting gehouden, waar we uitlegden wat we gedqqn hebben en zwqt er te doen vqlt, zo hebben we een boel testen bijgekregen om te maken. ",
+    "text": "De testen moesten nu werken op meerdere domeinen. Ook aan een simpele handler gewerkt die ervoor zorgt dat je offer niet meer kon aanpassen na een document aangemaakt te hebben. Verder ook enrichers toegevoegd die overal producten en companies toevoegen. De testen wworden dus sneller en efficïenter. Dit ging allemaal goed, maar het constante refactoren was wel eentonig. Toch besef ik dat dit moet en werk daar ook aan. Ook eens van thuis uit gewerkt en een online meeting gehouden, waar we uitlegden wat we gedqqn hebben en zwqt er te doen valt, zo hebben we een boel testen bijgekregen om te maken. ",
     "category": "reflectie",
     "date": "2025-11-6",
     "img": ""
@@ -68,9 +68,17 @@
   {
     "id": 8,
     "title": "negende week",
-    "text": " Dit was een kortere week door feestdag en brugdag maar heb wel nog wat kunnen doen. Zo heb i, woensdag een meting gehad met wpl case studenten waar we verder besproken over het ai project en dit al hebben proberen te integreren , maar hier zitten ze nog vast op de mpc agent en de workflow. Verder nog aan mijn stocksearchpage zitten werken , dit bleek toch niet zo makkelijk en duurde lang omdat ik werd gewaarschuwd dat specifiek deze pagina lang duurt om te laden. Toch heb ik het meeste af, alleen de laatste totaalberekeningen moeten nog gedaan worden. Ook probeerden we alles is samen te voegen bij Tonny, maar er liep een test niet bij mij dus dat heb ik ook nog rap gefixt. ",
+    "text": " Dit was een kortere week door feestdag en brugdag maar heb wel nog wat kunnen doen. Zo heb ik, woensdag een meting gehad met wpl case studenten waar we verder besproken over het ai project en dit al hebben proberen te integreren , maar hier zitten ze nog vast op de mpc agent en de workflow. Verder nog aan mijn stocksearchpage zitten werken , dit bleek toch niet zo makkelijk en duurde lang omdat ik werd gewaarschuwd dat specifiek deze pagina lang duurt om te laden. Toch heb ik het meeste af, alleen de laatste totaalberekeningen moeten nog gedaan worden. Ook probeerden we alles is samen te voegen bij Tonny, maar er liep een test niet bij mij dus dat heb ik ook nog rap gefixt. Alleen zit er nog een probleem in dat dit crashte zonder breakpoints, vanwege dat selenium te rap over de code gaat , kan het programma niet volgen en voert er bv iets uit dat nog niet bestaat, dit los ik volgende week op. ",
     "category": "teambuilding",
     "date": "2025-11-14",
+    "img": ""
+  },
+    {
+    "id": 9,
+    "title": "tiende week",
+    "text": " Deze week was er niet veel gebeurd qua vooruitgang van de projecten. Maandag was de testomgeving lang plat en donderdag was er een bedrijfsfeestje voor het tienjarig bestaan die we vrijdag ook moetsen opruimen. Dat betekent niet dat ik niks heb gedaan, er zijn immers 8 uur per dag. Zo heb ik dinsdag de stocksearchpage afgekregen en gerefactored. Ook begon ik met een nieuwe opdracht waar ik het klantenportaal kon testen. Hier moest wel nog de offertest speciall voor een domein aangepast voor worden. Dit gaat goed, maar deze test zal best lang duren voor te maken. Ook moest Ordertest weer gerefactored worden. Dit kwam door dat een pull weer veranderingen maakte in de basis van de testen. Dit lukte wel goed en loopt sneller dan ooit na mijn refactoring. Ik voel mezelf wel beter worden. ",
+    "category": "teambuilding",
+    "date": "2025-11-21",
     "img": ""
   }
   
