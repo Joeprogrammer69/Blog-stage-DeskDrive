@@ -88,7 +88,15 @@
     "category": "reflectie",
     "date": "2025-11-28",
     "img": ""
+  },
+  {
+    "id": 11,
+    "title": "twaalvde week",
+    "text": " Een week van best wel veel varieteit , zo heb ik bekeken waarom al de testen samen runnen soms faalt en heb ik terug aan de klantenportaal test gewerkt. De testen lopen uiteindelijk bijna zonder fouten buiten 1 en met de klantenportaal test ben ik verder geraakt alleen blijkt het met selenium nogal tricky om een link in een nieuwe browser te klikken. Eerst was het probleem dat ik de xpath niet vond omdat die in een iframe zat en daarna denk ik dat het de link niet vind. Buiten dat heb ik verder aan mijn taken van vorige week gewerkt en heb ik emailtemplates voor een klant gemaakt. Ook was er nog de intervisie op school",
+    "date": "2025-11-28",
+    "img": ""
   }
+  
   
   
   
