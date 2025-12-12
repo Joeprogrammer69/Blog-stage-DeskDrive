@@ -93,7 +93,16 @@
     "id": 11,
     "title": "twaalvde week",
     "text": " Een week van best wel veel varieteit , zo heb ik bekeken waarom al de testen samen runnen soms faalt en heb ik terug aan de klantenportaal test gewerkt. De testen lopen uiteindelijk bijna zonder fouten buiten 1 en met de klantenportaal test ben ik verder geraakt alleen blijkt het met selenium nogal tricky om een link in een nieuwe browser te klikken. Eerst was het probleem dat ik de xpath niet vond omdat die in een iframe zat en daarna denk ik dat het de link niet vind. Buiten dat heb ik verder aan mijn taken van vorige week gewerkt en heb ik emailtemplates voor een klant gemaakt. Ook was er nog de intervisie op school",
-    "date": "2025-11-28",
+    "category": "reflectie",
+    "date": "2025-12-5",
+    "img": ""
+  },
+  {
+    "id": 12,
+    "title": "dertiende week",
+    "text": "Klantenportaal test afgewerkt en die ook laten tonen, daarna er feedback over gekregen en toegepast. Er blijven nog echter af en toe fouten lopen hier en daar en soms niet. Dit zijn vaak issues zoals elemnt not clickable or is stale. Heb ook voor een klant gewerkt en daarvoor meer email templates gemaakt en ook helaas terug een paar moeten maken omdat ik die schreef in de stag omgeving wat een soort demo omgeving is die om de paar dagen overschreven wordt. Ik moest ook nog maken dat alle klanten ingeschreven in een traject automatisch er op komen als receiver als je een email template wilt sturen. Dit was echter ingewikkeld en we gaan hier een andere keer mee verder. Ook nog een excel taak gekregen die makkelijk was",
+    "category": "reflectie",
+    "date": "2025-12-12",
     "img": ""
   }
   
