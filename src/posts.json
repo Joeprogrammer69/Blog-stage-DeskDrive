@@ -104,6 +104,14 @@
     "category": "reflectie",
     "date": "2025-12-12",
     "img": ""
+  },
+  {
+    "id": 13,
+    "title": "veertiende week",
+    "text": " Deze week verder geprobeert aan mijn nog onafgewerkte testen te zerken. Er zijn echter complicaties bij waar ik niet veel aan kan doen, zoals een test die een pagina laad die bekend is om enorm lang te laden en een test waar ik op de klantenportaal moet geraken, maar er is iets verandert waardoor dit alleen een errorpagina teruggeeft. We gaan de testen die allemaal werken wel samenvoegen en testen die niet werken op een lopie ervan zetten. Verder Donderdag naar vfzwembaden gegaan om een opleiding te geven aan klanten over hoe ze met Deskdrive omweg kunnen gaan. Dit ging vrij goed en was echt wel een leuke dag maar de opleiding geven was met hapering(maar dat was niet bij mij alleen). Ook feedback gekregen over de templates gekregen van VfZwembaden maar dit was echter niet goed. Ik zal hier uit leren dat ik mijn code best dubbel en dik nakijk want er zaten fouten in.",
+    "category": "fails",
+    "date": "2025-12-19",
+    "img": ""
   }
   
   
