@@ -41,7 +41,7 @@ const LandingPage = () => {
               <Card.Body>
                 <Card.Title className="fw-semibold text-secondary">Over mijn stage</Card.Title>
                 <Card.Text>
-                  Mijn stage is bij Deskdrive, hier voor ik mijn PRO WPL uit. Dit houd in dat ik mee in het bedrijf werk en dus al aanvoel en bijleer hoe het is om te werken bij een IT bedrijf
+                  Mijn stage is bij Deskdrive, hier voer ik mijn PRO WPL uit. Dit houd in dat ik mee in het bedrijf werk en dus al aanvoel en bijleer hoe het is om te werken bij een IT bedrijf
                   .Dit doe ik  van september tot januari. Deze website moet vooral tonen hoe ik ben uitgebloeit van een student naar een werknemer, wat ik allemaal heb geleerd,
                   wat beter kan en wat ik allemaal heb gedaan. Dingen zoals Selenium testen schrijven en klanten helpen is onder andere een van mijn rollen bij Deskdrive.
                 </Card.Text>

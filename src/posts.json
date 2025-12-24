@@ -2,7 +2,7 @@
   {
     "id": 0,
     "title": "Eerste week",
-    "text": "De eerste week was wennen, in het begin was ik een beetje nerveus door de verwachtingen maar dat ging na een tijdje weg. We hebben in het begin een klant gehad, en het was leuk om in teamverband eruit te komen. We moesten haar business facebook account linken zodat we een email template kunnen aanmaken waar we haar socials mee kunnen sturen. De dagen erna moesten we veel in de deskdrive omgeving taakjes uitvoeren en leren hoe dat de selenium testen in elkaar zaten. Omdat ik en een collega stagair goed vooruitgingen kregen we een hele cursus dat mensen die beginnen moeten uitvoeren en dat was wel uitdagend.",
+    "text": "De eerste week was wennen, in het begin was ik een beetje nerveus door de verwachtingen maar dat ging na een tijdje weg. We hebben in het begin een klant gehad, en het was leuk om in teamverband eruit te komen. We moesten haar business facebook account linken zodat we een email template kunnen aanmaken waar we haar socials mee kunnen sturen. De dagen erna moesten we veel in de deskdrive omgeving taakjes uitvoeren en leren hoe dat de selenium testen in elkaar zaten. Ik moest bijvoorbeeld een ingebouwde hulppagina makenOmdat ik en een collega stagair goed vooruitgingen kregen we een hele cursus dat mensen die beginnen moeten uitvoeren en dat was wel uitdagend. Ik kende al niet veel van economie dus de hele flow van een offerte naar een order naar een factuur is niet zo bekend bij mij",
     "category": "lessons learned",
     "date": "2025-09-19",
     "img": ""
@@ -12,7 +12,7 @@
   {
     "id": 1,
     "title": "tweede week",
-    "text": " In de tweede week zijn we gestart met modules te maken zoals json fields en queries uit te voeren op de database. Dit ging moeilijk omdat dit ingebouwd was in de erp omgeving en we konden dus moeilijk aan tabellen en data geraken. Later hebben we deze oefeningen wel kunnen doen op onze mentor haar computer. Verder heb ik nog andere modules gemaakt en zelfs 1 hermaakt omdat die er nog niet goed inzat. In de afbeelding zie je een stuk code die heel simpel lijkt maar door dat we niets van de datatypes/gegevens wisten was dit zelfs moeilijk, gelukkig met dit op onze mentor haar computer te doen ging dit beter.  ",
+    "text": " In de tweede week zijn we gestart met modules te maken zoals json fields en queries uit te voeren op de database. Dit ging moeilijk omdat dit ingebouwd was in de erp omgeving en we konden dus moeilijk aan tabellen en data geraken. Later hebben we deze oefeningen wel kunnen doen op onze mentor haar computer. Verder heb ik nog andere modules gemaakt en zelfs 1 hermaakt omdat die er nog niet goed inzat. In de afbeelding zie je een stuk code die heel simpel lijkt maar door dat we niets van de datatypes/gegevens wisten was dit zelfs moeilijk, gelukkig met dit op onze mentor haar computer te doen ging dit beter. Verder ook nog research gedaan naar de prijsen van ai data modellen aangezien dat het de bedoeling is dat er later met ai gewerkt gaat worden in de deskdrive omgeving. Die ook proberen in te bouwen in een kleiner programma maar ik botste op een rate limit die niet omzeild kon worden en je dus moet betalen.  ",
     "category": "wins",
     "date": "2025-09-25",
     "img":"/sqlcode.jpg"
@@ -20,7 +20,7 @@
   {
     "id": 2,
     "title": "derde week",
-    "text": "Deze week stond voor oefenen met selenium tests. Zo heb ik proberen te doen dat de selenium een test moet simuleren dat naar de offerte pagina gaat en vervolgens naar de producten tab. Daarna moest het een product toevoegen en via die popup al de items in die popup testen. Hier zit ik wel nog vast vanwege ontbrekende Id's die ik nodig heb. Ook heb ik wel wat bigeleerd door een collega een selenium tutorial te geven maar daar eigenlijk bij te leren. Verder heb ik nog taakjes gekregen zoals images verwijderen die niet gerendeert waren in deskdrive en heb ik metings meegemaakt wat wel een coole nieuwe ervaring is. Ook ben ik begonnen met pdf templates te makjen in freemarker maar daar moet ik volgende week nog verder aan werken. ",
+    "text": "Deze week stond voor oefenen met selenium tests. Zo heb ik proberen te doen dat de selenium een test moet simuleren dat naar de offerte pagina gaat en vervolgens naar de producten tab. Daarna moest het een product toevoegen en via die popup al de items in die popup testen. Hier zit ik wel nog vast vanwege ontbrekende Id's die ik nodig heb. Ook heb ik wel wat bijgeleerd door een collega een selenium tutorial te geven maar daar eigenlijk bij te leren. Verder heb ik nog taakjes gekregen zoals images verwijderen die niet gerendeert waren in deskdrive en heb ik metings meegemaakt wat wel een coole nieuwe ervaring is. Ook ben ik begonnen met pdf templates te makjen in freemarker maar daar moet ik volgende week nog verder aan werken. ",
     "category": "reflectie",
     "date": "2025-10-3",
     "img": ""
