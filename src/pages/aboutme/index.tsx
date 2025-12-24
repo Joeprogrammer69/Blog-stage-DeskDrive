@@ -87,7 +87,7 @@ const AboutMePage = () => {
           Deskdrive is een bedrijf met expertise in CRM en ERP, zo hebben ze
           een platform waarmee ze alle noden op één plaats bijhouden zoals
           klantenbeheer en facturaties. Het is gelegen in Zandhoven en heeft een
-          gezellig team van net onder 10 man.
+          gezellig team van rond de 6-7 man.
           <br /><br />
           
         </Card.Text>
@@ -106,7 +106,7 @@ const AboutMePage = () => {
           Mijn rol en bedoeling stage
         </Card.Title>
         <Card.Text className="text-start">
-          Hier ben ik een stagiar van september 2025 tot januari 2026. Hier ben ik vooral om bij te leren en in het team komen om mee te ervaren hoe het is om te werken in een IT bedrijf. Vaak kreeg ik bepaalde taken die varieerde in grootte en moeilijkheidsgraad. Ook kleine projecten hoorde erbij waar klanten in betrokken waren.
+         Vanaf september 2025 tot januari 2026 ben ik er vooral om bij te leren en in het team komen om mee te ervaren hoe het is om te werken in een IT bedrijf. Vaak kreeg ik bepaalde taken die varieerde in grootte en moeilijkheidsgraad. Ook kleine projecten hoorde erbij waar klanten in betrokken waren.
           <ul>
             <li>Selenium testen schrijven in Java</li>
             <li>Templates maken, oa pdf's, emails</li>
