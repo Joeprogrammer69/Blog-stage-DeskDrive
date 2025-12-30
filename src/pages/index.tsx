@@ -26,11 +26,12 @@ const LandingPage = () => {
       <Container className="pt-5">
         <Row className="text-center mb-5">
           <Col>
-            <h2 className="fw-bold text-primary">Blog Deskdrive</h2>
+            <h2 className="fw-bold text-primary">Blog Deskdrive</h2> <img src="/deskdrive.jpg" height="150" width="400"></img>
             <p className="text-muted fs-5">
               Op deze website kan je verschillende blogs vinden die ik bijgehouden heb
               tijdens mijn werkplekleren.
             </p>
+           
             <hr className="w-25 mx-auto" />
           </Col>
         </Row>
@@ -42,8 +43,14 @@ const LandingPage = () => {
                 <Card.Title className="fw-semibold text-secondary">Over mijn stage</Card.Title>
                 <Card.Text>
                   Mijn stage is bij Deskdrive, hier voer ik mijn PRO WPL uit. Dit houd in dat ik mee in het bedrijf werk en dus al aanvoel en bijleer hoe het is om te werken bij een IT bedrijf
-                  .Dit doe ik  van september tot januari. Deze website moet vooral tonen hoe ik ben uitgebloeit van een student naar een werknemer, wat ik allemaal heb geleerd,
-                  wat beter kan en wat ik allemaal heb gedaan. Dingen zoals Selenium testen schrijven en klanten helpen is onder andere een van mijn rollen bij Deskdrive.
+                  .Dit doe ik  van september tot januari. Dingen zoals Selenium testen schrijven en klanten helpen is onder andere een van mijn rollen bij Deskdrive. Het doel is om ervaring op te textDecorationen om 
+                  me klaar te stomen voor het echte werk later.
+                  
+                </Card.Text>
+                <Card.Title className="fw-semibold text-secondary">Het doel van de blog</Card.Title>
+                <Card.Text>
+                  De blog moet een overzicht bijhouden van wat ik allemaal geleerd en gedaan heb. Zo zie je mijn groei, waar al de vooruitgangen maar ook de failures bij horen. 
+                  Later kan dit handig zijn voor mezelf om terug te bekijken. Maar ook voor anderen die willen zien wat ik allemaal gedaan heb en misschien zelf beoordelen.
                 </Card.Text>
               </Card.Body>
             </Card>

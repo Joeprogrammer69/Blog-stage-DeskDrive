@@ -2,7 +2,7 @@
   {
     "id": 0,
     "title": "Eerste week",
-    "text": "De eerste week was wennen, in het begin was ik een beetje nerveus door de verwachtingen maar dat ging na een tijdje weg. We hebben in het begin een klant gehad, en het was leuk om in teamverband eruit te komen. We moesten haar business facebook account linken zodat we een email template kunnen aanmaken waar we haar socials mee kunnen sturen. De dagen erna moesten we veel in de deskdrive omgeving taakjes uitvoeren en leren hoe dat de selenium testen in elkaar zaten. Ik moest bijvoorbeeld een ingebouwde hulppagina makenOmdat ik en een collega stagair goed vooruitgingen kregen we een hele cursus dat mensen die beginnen moeten uitvoeren en dat was wel uitdagend. Ik kende al niet veel van economie dus de hele flow van een offerte naar een order naar een factuur is niet zo bekend bij mij",
+    "text": "De eerste week was wennen, in het begin was ik een beetje nerveus door de verwachtingen maar dat ging na een tijdje weg. We hebben in het begin een klant gehad, en het was leuk om in teamverband eruit te komen. We moesten haar business facebook account linken zodat we een email template kunnen aanmaken waar we haar socials mee kunnen sturen. De dagen erna moesten we veel in de deskdrive omgeving taakjes uitvoeren en leren hoe dat de selenium testen in elkaar zaten. Ik moest bijvoorbeeld een ingebouwde hulppagina maken. Omdat ik en een collega stagair goed vooruitgingen kregen we een hele cursus dat mensen die beginnen moeten uitvoeren en dat was wel uitdagend. Ik kende al niet veel van economie dus de hele flow van een offerte naar een order naar een factuur is niet zo bekend bij mij",
     "category": "lessons learned",
     "date": "2025-09-19",
     "img": ""
@@ -12,7 +12,7 @@
   {
     "id": 1,
     "title": "tweede week",
-    "text": " In de tweede week zijn we gestart met modules te maken zoals json fields en queries uit te voeren op de database. Dit ging moeilijk omdat dit ingebouwd was in de erp omgeving en we konden dus moeilijk aan tabellen en data geraken. Later hebben we deze oefeningen wel kunnen doen op onze mentor haar computer. Verder heb ik nog andere modules gemaakt en zelfs 1 hermaakt omdat die er nog niet goed inzat. In de afbeelding zie je een stuk code die heel simpel lijkt maar door dat we niets van de datatypes/gegevens wisten was dit zelfs moeilijk, gelukkig met dit op onze mentor haar computer te doen ging dit beter. Verder ook nog research gedaan naar de prijsen van ai data modellen aangezien dat het de bedoeling is dat er later met ai gewerkt gaat worden in de deskdrive omgeving. Die ook proberen in te bouwen in een kleiner programma maar ik botste op een rate limit die niet omzeild kon worden en je dus moet betalen.  ",
+    "text": " In de tweede week zijn we gestart met modules te maken zoals json fields en queries uit te voeren op de database. Dit ging moeilijk omdat dit ingebouwd was in de erp omgeving en we konden dus moeilijk aan tabellen en data geraken. Later hebben we deze oefeningen wel kunnen doen op onze mentor haar computer. Verder heb ik nog andere modules gemaakt en zelfs 1 hermaakt omdat die er nog niet goed inzat. In de afbeelding zie je een stuk code die heel simpel lijkt maar door dat we niets van de datatypes/gegevens wisten was dit zelfs moeilijk, gelukkig met dit op onze mentor haar computer te doen ging dit beter. Verder ook nog research gedaan naar de prijsen van ai data modellen aangezien dat het de bedoeling is dat er later met ai gewerkt gaat worden in de deskdrive omgeving. Die ook proberen in te bouwen in een kleiner programma maar ik botste op een rate limit die niet omzeild kon worden en je dus moet betalen. Deze week was leerrijk en begin gewoon te worden aan fulltime werken. Ook vind ik het best leuk en de stress is zo grotendeels weg.",
     "category": "wins",
     "date": "2025-09-25",
     "img":"/sqlcode.jpg"
@@ -20,7 +20,7 @@
   {
     "id": 2,
     "title": "derde week",
-    "text": "Deze week stond voor oefenen met selenium tests. Zo heb ik proberen te doen dat de selenium een test moet simuleren dat naar de offerte pagina gaat en vervolgens naar de producten tab. Daarna moest het een product toevoegen en via die popup al de items in die popup testen. Hier zit ik wel nog vast vanwege ontbrekende Id's die ik nodig heb. Ook heb ik wel wat bijgeleerd door een collega een selenium tutorial te geven maar daar eigenlijk bij te leren. Verder heb ik nog taakjes gekregen zoals images verwijderen die niet gerendeert waren in deskdrive en heb ik metings meegemaakt wat wel een coole nieuwe ervaring is. Ook ben ik begonnen met pdf templates te makjen in freemarker maar daar moet ik volgende week nog verder aan werken. ",
+    "text": "Deze week stond voor oefenen met selenium tests. Zo heb ik proberen te doen dat de selenium een test moet simuleren dat naar de offerte pagina gaat en vervolgens naar de producten tab. Daarna moest het een product toevoegen en via die popup al de items in die popup testen. Hier zit ik wel nog vast vanwege ontbrekende Id's die ik nodig heb. Ook heb ik wel wat bijgeleerd door een collega een selenium tutorial te geven maar daar eigenlijk bij te leren. Verder heb ik nog taakjes gekregen zoals images verwijderen die niet gerendeert waren in deskdrive en heb ik metings meegemaakt wat wel een coole nieuwe ervaring is. Ook ben ik begonnen met pdf templates te makjen in freemarker maar daar moet ik volgende week nog verder aan werken. Ik heb veel moeten bijleren deze week en het is leuk en uitdagend, omdat dit direct veel is. De testen op school waren in veel kleinere projecten. ",
     "category": "reflectie",
     "date": "2025-10-3",
     "img": ""
@@ -28,7 +28,7 @@
   {
     "id": 3,
     "title": "vierde week",
-    "text": "Ook deze week gingen we veel testen, zo kregen we veel uitleg hoe dat het doel was dat de testen een kortere runtime moesten krijgen. Eerst moesten we nog de testlogica zelf schijven en dit bewees niet makkelijk te zijn. Zo heb ik nog verder aan mijn addproducttooffer test gewerkt en die werkend gekregen. Op het einde van de week breidde ik mijn testen nog uit om ook op producttab te testen  waar ik meerdere fields zoals btw zou testen. We kregen in een laatste meting van de week wel nog git issues waardoor een methode niet meer werkte die verschillende testen niet meer deed werken. Daarmee gaan we volgende week maandag/dinsdag mee verder.  ",
+    "text": "Ook deze week gingen we veel testen, zo kregen we veel uitleg hoe dat het doel was dat de testen een kortere runtime moesten krijgen. Eerst moesten we nog de testlogica zelf schijven en dit bewees niet makkelijk te zijn. Zo heb ik nog verder aan mijn addproducttooffer test gewerkt en die werkend gekregen. Op het einde van de week breidde ik mijn testen nog uit om ook op producttab te testen  waar ik meerdere fields zoals btw zou testen. We kregen in een laatste meting van de week wel nog git issues waardoor een methode niet meer werkte die verschillende testen niet meer deed werken. Daarmee gaan we volgende week maandag/dinsdag mee verder. Zo leer ik ook bij over feedback ontvangen en ook het mindere leuke van setbacks.  ",
     "category": "reflectie",
     "date": "2025-10-10",
     "img": ""
@@ -36,15 +36,15 @@
   {
     "id": 4,
     "title": "vijfde week",
-    "text": " Deze week hard zitten werken aan testen en er ook af gekregen, met refactoren en dingen bij te voegen is het uiteindelijk gelukt het meeste af te krijgen. Zo heb ik setup data toegevoegt om de testen rapper te doen lopen. Ook heb ik in een meting gezien wat het volgende is dat we als opdracht krijgen. Namelijk de Deskdrive App testen op bugs  en fouten.  ",
+    "text": " Deze week hard zitten werken aan testen en er ook af gekregen, met refactoren en dingen bij te voegen is het uiteindelijk gelukt het meeste af te krijgen. Zo heb ik setup data toegevoegt om de testen rapper te doen lopen en enkele bugs eruit gehaald. Ook heb ik in een meting gezien wat het volgende is dat we als opdracht krijgen. Namelijk de Deskdrive App testen op bugs en fouten.  ",
     "category": "reflectie",
     "date": "2025-10-17",
-    "img": ""
+    "img": "/setup.jpg"
   },
   {
     "id": 5,
     "title": "zesde week",
-    "text": " Code nog eens gerefactord met als doel zo weinig mogelijk errors te krijgen tijdens het runnen bij de tests. Zo was vaak het probleem dat er iets niet aangeklikt kon worden in selenium omdat er iets anders in de weg zat. Dit is een algemeen probleem in Selenium. Dit heb ik samen met een andere stagair opgelost. Zo is het deels opgelost door alle producte in 1 keer toe te voegen en elke keer een hidepopup en waitajaxload toe te voegen. Verder nog de taak gekregen om email verschillende templates te maken en die waren ongeveer in 3 uur gelukt. Dit is iets dat ondertussen wel lukt.",
+    "text": " Code nog eens gerefactord met als doel zo weinig mogelijk errors te krijgen tijdens het runnen bij de tests. Zo was vaak het probleem dat er iets niet aangeklikt kon worden in selenium omdat er iets anders in de weg zat. Dit is een algemeen probleem in Selenium. Dit heb ik samen met een andere stagair opgelost. Zo is het deels opgelost door alle producte in 1 keer toe te voegen en elke keer een hidepopup en waitajaxload toe te voegen. Verder nog de taak gekregen om email verschillende templates te maken en die waren ongeveer in 3 uur gelukt. Dit is iets dat ondertussen wel lukt. Het was wel best een zware week omdat het constante refactoren en zoeken hoe iets rapper kan lopen veel trial&error is. Maar dat hoort er bij in een successvolle bedrijf, performante code!",
     "category": "lessons learned",
     "date": "2025-10-24",
     "img": ""
@@ -53,15 +53,15 @@
     "id": 6,
     "title": "zevende week",
     "text": "Aan nieuwe tests gewerkt deze week, Zo moest ik de historybalk testen en testen of de gegevens van een verkooporder hetzelvde blijven als je die naar een aankooporder omzet. Hier moet de stock nog voor getest worden maar voor de rest is dit klaar. Ook hebben we toegang voor een nieuw project gekregen waar we tweaken aan de deskdrive mobiele app en hebben we een meting gehad ivb met telefoongesprekken, iets dat ik volgende week voor de eerste keer ga doen.",
-    "category": "reflectie",
+    "category": "code",
     "date": "2025-10-31",
     "img": ""
   },
   {
     "id": 7,
     "title": "achtste week",
-    "text": "De testen moesten nu werken op meerdere domeinen. Ook aan een simpele handler gewerkt die ervoor zorgt dat je offer niet meer kon aanpassen na een document aangemaakt te hebben. Verder ook enrichers toegevoegd die overal producten en companies toevoegen. De testen wworden dus sneller en efficïenter. Dit ging allemaal goed, maar het constante refactoren was wel eentonig. Toch besef ik dat dit moet en werk daar ook aan. Ook eens van thuis uit gewerkt en een online meeting gehouden, waar we uitlegden wat we gedqqn hebben en zwqt er te doen valt, zo hebben we een boel testen bijgekregen om te maken. ",
-    "category": "reflectie",
+    "text": "De testen moesten nu werken op meerdere domeinen. Ook aan een simpele handler gewerkt die ervoor zorgt dat je offer niet meer kon aanpassen na een document aangemaakt te hebben. Verder ook enrichers toegevoegd die overal producten en companies toevoegen. De testen worden dus sneller en efficïenter. Dit ging allemaal goed, maar het constante refactoren was wel eentonig. Toch besef ik dat dit moet en werk daar ook aan. Ook eens van thuis uit gewerkt en een online meeting gehouden, waar we uitlegden wat we gedaan hebben en wat er te doen valt, zo hebben we een boel testen bijgekregen om te maken. Het was best leuk om van thuis te werken. Ik hou van mijn college's maar het is nog het beste om onder je eigen dak te werken. Wel is het moeilijker om gefocust te blijven. Een probleem dat ik altijd al wel gehad heb. ",
+    "category": "teambuilding",
     "date": "2025-11-6",
     "img": ""
   },
@@ -76,23 +76,23 @@
     {
     "id": 9,
     "title": "tiende week",
-    "text": " Deze week was er niet veel gebeurd qua vooruitgang van de projecten. Maandag was de testomgeving lang plat en donderdag was er een bedrijfsfeestje voor het tienjarig bestaan die we vrijdag ook moetsen opruimen. Dat betekent niet dat ik niks heb gedaan, er zijn immers 8 uur per dag. Zo heb ik dinsdag de stocksearchpage afgekregen en gerefactored. Ook begon ik met een nieuwe opdracht waar ik het klantenportaal kon testen. Hier moest wel nog de offertest speciall voor een domein aangepast voor worden. Dit gaat goed, maar deze test zal best lang duren voor te maken. Ook moest Ordertest weer gerefactored worden. Dit kwam door dat een pull weer veranderingen maakte in de basis van de testen. Dit lukte wel goed en loopt sneller dan ooit na mijn refactoring. Ik voel mezelf wel beter worden. ",
-    "category": "teambuilding",
+    "text": " Deze week was er niet veel gebeurd qua vooruitgang van de projecten. Maandag was de testomgeving lang plat en donderdag was er een bedrijfsfeestje voor het tienjarig bestaan die we vrijdag ook moetsen opruimen. Dat betekent niet dat ik niks heb gedaan, er zijn immers 8 uur per dag. Zo heb ik dinsdag de stocksearchpage afgekregen en gerefactored. Ook begon ik met een nieuwe opdracht waar ik het klantenportaal kon testen. Hier moest wel nog de offertest speciaal voor een domein aangepast voor worden. Dit gaat goed, maar deze test zal best lang duren voor te maken. Ook moest Ordertest weer gerefactored worden. Dit kwam door dat een pull weer veranderingen maakte in de basis van de testen. Dit lukte wel goed en loopt sneller dan ooit na mijn refactoring. Ik voel mezelf wel beter worden. ",
+    "category": "code",
     "date": "2025-11-21",
     "img": ""
   },
   {
     "id": 10,
     "title": "elfde week",
-    "text": " Deze week was zorgen dat er geen enkele errors meer zaten in de testen en aan pdf templates werken. Zo hebben we met ene klant besproken wat er aan de templates beter kan en met iemand samen aan gewerkt, maar het was moeilijk om dit steeds met 2 aan 1 computer te doen dus ben ik verder aan mijn klantenportaal test bezig geweest waar ik een beetje vooritgang op heb gemaakt. Daarna kreeg ik verschillende opdrachten omtrend een andere klant Vfzwembaden, hier moest ik via subtypes bepalen welke voorpagina's moesten getoond worden in een pdf document en moest ik foto's aan de hand van een vinkje(checkmark) laten werken, dit was een lange taak want ik moest veel achterliggende code opzoeken dus ik heb wel hier en daar wat hulp gehad. Het gaat nog wel goed, maar deze week had ook wel zijn moeilijkheden en frustraties. ZO zie je dat ik nog wat verfijning nodig heb om sneller tot het resultaat te bekomen   ",
+    "text": " Deze week was ervoor zorgen dat er geen enkele errors meer zaten in de testen en aan pdf templates werken. Zo hebben we met ene klant besproken wat er aan de templates beter kan en met iemand samen aan gewerkt, maar het was moeilijk om dit steeds met 2 aan 1 computer te doen dus ben ik verder aan mijn klantenportaal test bezig geweest waar ik een beetje vooritgang op heb gemaakt. Daarna kreeg ik verschillende opdrachten omtrend een andere klant Vfzwembaden, hier moest ik via subtypes bepalen welke voorpagina's moesten getoond worden in een pdf document en moest ik foto's aan de hand van een vinkje(checkmark) laten werken, dit was een lange taak want ik moest veel achterliggende code opzoeken dus ik heb wel hier en daar wat hulp gehad. Het gaat nog wel goed, maar deze week had ook wel zijn moeilijkheden en frustraties. ZO zie je dat ik nog wat verfijning nodig heb om sneller tot het resultaat te bekomen ",
     "category": "reflectie",
     "date": "2025-11-28",
     "img": ""
   },
   {
     "id": 11,
-    "title": "twaalvde week",
-    "text": " Een week van best wel veel varieteit , zo heb ik bekeken waarom al de testen samen runnen soms faalt en heb ik terug aan de klantenportaal test gewerkt. De testen lopen uiteindelijk bijna zonder fouten buiten 1 en met de klantenportaal test ben ik verder geraakt alleen blijkt het met selenium nogal tricky om een link in een nieuwe browser te klikken. Eerst was het probleem dat ik de xpath niet vond omdat die in een iframe zat en daarna denk ik dat het de link niet vind. Buiten dat heb ik verder aan mijn taken van vorige week gewerkt en heb ik emailtemplates voor een klant gemaakt. Ook was er nog de intervisie op school",
+    "title": "twaalfde week",
+    "text": " Een week van best wel veel Variëteit , zo heb ik bekeken waarom al de testen samen runnen soms faalt en heb ik terug aan de klantenportaal test gewerkt. De testen lopen uiteindelijk bijna zonder fouten buiten 1 en met de klantenportaal test ben ik verder geraakt alleen blijkt het met selenium nogal tricky om een link in een nieuwe browser te klikken. Eerst was het probleem dat ik de xpath niet vond omdat die in een iframe zat en daarna denk ik dat het de link niet vind. Buiten dat heb ik verder aan mijn taken van vorige week gewerkt en heb ik emailtemplates voor een klant gemaakt. Ook was er nog de intervisie op school",
     "category": "reflectie",
     "date": "2025-12-5",
     "img": ""
@@ -111,6 +111,14 @@
     "text": " Deze week verder geprobeert aan mijn nog onafgewerkte testen te zerken. Er zijn echter complicaties bij waar ik niet veel aan kan doen, zoals een test die een pagina laad die bekend is om enorm lang te laden en een test waar ik op de klantenportaal moet geraken, maar er is iets verandert waardoor dit alleen een errorpagina teruggeeft. We gaan de testen die allemaal werken wel samenvoegen en testen die niet werken op een lopie ervan zetten. Verder Donderdag naar vfzwembaden gegaan om een opleiding te geven aan klanten over hoe ze met Deskdrive omweg kunnen gaan. Dit ging vrij goed en was echt wel een leuke dag maar de opleiding geven was met hapering(maar dat was niet bij mij alleen). Ook feedback gekregen over de templates gekregen van VfZwembaden maar dit was echter niet goed. Ik zal hier uit leren dat ik mijn code best dubbel en dik nakijk want er zaten fouten in.",
     "category": "fails",
     "date": "2025-12-19",
+    "img": ""
+  },
+  {
+    "id": 14,
+    "title": "vijftiende week",
+    "text": " Een rustige week vanwege de feestdagen. Buiten een beetje aan een bepaalde test te werken en enkele kleine taakjes van aqfero af te werken is er niet veel gebeurd. Ik ben begonnen aan mijn einddocument en of de blog compleet is en hier en daar een kleine aanpassing aan de design van de site.",
+    "category": "reflectie",
+    "date": "2025-12-29",
     "img": ""
   }
   

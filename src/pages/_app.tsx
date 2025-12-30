@@ -12,7 +12,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
           <Component {...pageProps} />
         </main>
 
-        <footer className="text-center text-light py-3 bg-primary mt-auto shadow-sm">
+        <footer className="text-center text-light py-3 bg-secondary mt-auto shadow-sm">
           <p className="mb-0">
            
             © {new Date().getFullYear()} Deskdrive Blog van{" "}

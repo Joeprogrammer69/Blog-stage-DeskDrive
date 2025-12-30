@@ -22,22 +22,43 @@ const formatDate = (dateString: string) => {
 
 const BlogPage = () => {
   const [selectedCategory, setSelectedCategory] = useState<string>("");
-  const [expandedKey, setExpandedKey] = useState<string | null>(null);
+  const [showAllWeeks, setShowAllWeeks] = useState<boolean>(false);
+  const [visibleMap, setVisibleMap] = useState<{ [key: string]: boolean }>({});
 
   const handleCategoryChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
     setSelectedCategory(e.target.value);
-    setExpandedKey(null);
+    setVisibleMap({});
+  };
+
+  const handleShowAllChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const checked = e.target.checked;
+    setShowAllWeeks(checked);
+
+    if (checked) {
+      const allVisible: { [key: string]: boolean } = {};
+      posts.forEach((post, index) => {
+        allVisible[`${post.id}-${index}`] = true;
+      });
+      setVisibleMap(allVisible);
+    } else {
+      setVisibleMap({});
+    }
   };
 
   const toggleExpand = (key: string) => {
-    setExpandedKey((prev) => (prev === key ? null : key));
+    setVisibleMap((prev) => ({
+      ...prev,
+      [key]: !prev[key],
+    }));
   };
 
-  const filteredPosts =
-    (selectedCategory === ""
-      ? posts
-      : posts.filter((post) => post.category === selectedCategory)
-    ).sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime());
+  let filteredPosts = selectedCategory
+    ? posts.filter((post) => post.category === selectedCategory)
+    : posts;
+
+  filteredPosts = filteredPosts.sort(
+    (a, b) => new Date(a.date).getTime() - new Date(b.date).getTime()
+  );
 
   return (
     <Container
@@ -50,9 +71,9 @@ const BlogPage = () => {
         </Col>
       </Row>
 
-      <Row>
-        <Col xs={12} md={3} className="mb-4">
-          <h5>Filter op categorie</h5>
+      {}
+      <Row className="mb-4">
+        <Col xs={12} md={6} className="mb-2">
           <Form.Select value={selectedCategory} onChange={handleCategoryChange}>
             <option value="">Alle categorieën</option>
             {categories.map((cat, idx) => (
@@ -62,12 +83,22 @@ const BlogPage = () => {
             ))}
           </Form.Select>
         </Col>
+        <Col xs={12} md={6} className="mb-2 d-flex align-items-center">
+          <Form.Check
+            type="checkbox"
+            label="Toon alle weken"
+            checked={showAllWeeks}
+            onChange={handleShowAllChange}
+          />
+        </Col>
+      </Row>
 
-        <Col xs={12} md={9}>
+      <Row>
+        <Col xs={12}>
           {filteredPosts.length === 0 && <p>Geen posts gevonden...</p>}
 
           {filteredPosts.map((post, index) => {
-            const itemKey = `${String(post.id)}-${index}`;
+            const itemKey = `${post.id}-${index}`;
 
             return (
               <Card
@@ -80,7 +111,7 @@ const BlogPage = () => {
                   <Card.Title>{post.title}</Card.Title>
 
                   <AnimatePresence initial={false}>
-                    {expandedKey === itemKey && (
+                    {visibleMap[itemKey] && (
                       <motion.div
                         key={`content-${itemKey}`}
                         initial={{ height: 0, opacity: 0 }}
@@ -93,7 +124,6 @@ const BlogPage = () => {
                           {formatDate(post.date)} – {post.category}
                         </Card.Subtitle>
 
-                        
                         {post.img && (
                           <Card.Img
                             src={post.img}
@@ -111,9 +141,7 @@ const BlogPage = () => {
             );
           })}
         </Col>
-        
       </Row>
-     
     </Container>
   );
 };
